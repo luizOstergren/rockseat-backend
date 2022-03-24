@@ -4,14 +4,17 @@
   "description": "Projeto de backend da rockseat, criando um site de perguntas com banco de dados",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
   },
   "keywords": [],
   "author": "Luiz Henrique",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    /*"sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"*/
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
